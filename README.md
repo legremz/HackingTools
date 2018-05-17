@@ -141,6 +141,8 @@ All tools are listed like this \[TAG1|\[TAG2|TAG3...]][Clickable name](#): Short
 * \[G|C] [wuzz]: webclient curl like using ncurses
 * \[G|C] [patator]: web bruteforce/enumator
 * \[G|C] [wfuzz]: web bruteforce/enumator
+* \[G|C] [teh_s3_bucketeers]: bruteforce s3 buckets
+* \[W] https://html5sec.org/: tons of XSS bypass in browsers
 
 ### Windows
 
@@ -186,6 +188,7 @@ All tools are listed like this \[TAG1|\[TAG2|TAG3...]][Clickable name](#): Short
 * \[O|C]: [recon-ng]: reconnaissance tool metasploit alike for mails/leaks/contacts/hosts/domains...
 * \[G] https://gist.github.com/adamloving/4401361: List of trash/temporary mails list
 * \[W] http://www.viewdns.info/: retrieve DNS information, reverse whois, etc...
+* \[W] http://packetlife.net/library/cheat-sheets/: cheat sheets on different technos (network, CLI tools, etc)
 
 ### Sec/Tools list
 
@@ -330,3 +333,4 @@ Github wiki is also an option when the list is going to be too long.
 [UACME]: https://github.com/hfiref0x/UACME/
 [frida]: https://github.com/frida/frida
 [objection]: https://github.com/sensepost/objection
+[teh_s3_bucketeers]: https://github.com/tomdev/teh_s3_bucketeers
