@@ -84,6 +84,8 @@ All tools are listed like this \[TAG1|\[TAG2|TAG3...]][Clickable name](#): Short
 
 * \[G] [dex2jar]: apk unpacker (android package)
 * \[G|C] [objection]: mobile exploration toolkit, wrapper of frida
+* \[G|C] [apktool]: unpack apk, repack them and various other operations
+* \[G|C] [uber-apk-signer]: signing apk
 
 ### Forensic
 
@@ -143,11 +145,22 @@ All tools are listed like this \[TAG1|\[TAG2|TAG3...]][Clickable name](#): Short
 * \[G|C] [wfuzz]: web bruteforce/enumator
 * \[G|C] [teh_s3_bucketeers]: bruteforce s3 buckets
 * \[W] https://html5sec.org/: tons of XSS bypass in browsers
+* \[G|C] [brakeman]: Ruby on Rails static code analysis security related
+* \[G|C] [gixy]: nginx configuration auditor
 
 ### Windows
 
 * \[G|C] [impacket]: tons of CLI scripts to interact with windows protocols
+* \[G|C] [mimikatz]: Retrieve hash/password, play with DPAPI
+* \[G|C] [pypykatz]: python implementation of mimikatz
 * \[G|W] [UACME]: Exploits for UAC bypass
+* \[G|C] [responder]: Protocol poisoner and rogue server for Microsoft based networks
+* \[G|C] [crackmapexec]: Swiss army knife for pentesting
+* \[G|C] [lsassy]: lsass dumper and parser
+* \[G|C] [dumpert]: lsass memory dumper techniques that can bypass some EDR
+* \[G|C] [phys2memprofit]: lsass memory dumper through kernel driver, can bypass EDR
+* \[G|C] [pywerview]: partial powersploit's tooling rewritten in python
+* \[G|C] [SharpRDP]: can execute commands through RDP connection without any GUI interaction
 
 ### Network
 
@@ -158,6 +171,8 @@ All tools are listed like this \[TAG1|\[TAG2|TAG3...]][Clickable name](#): Short
 * \[S|O] [Wireshark]: network packet analyzer
 * \[S|W] [NetworkMiner]: sniffer/pcap analyzer, pretty good for files and see what's going on with HTTP traffic
 * \[C|O] [Hexinject]: Packer injector and sniffer. Allows to modify packets on the fly
+* \[G|C] [ssf]: Client/server socks proxifying and port forwarding with reverse https
+* \[G|C] [revsocks]: Go implementation for a socks proxy with reverse SSL/TLS
 
 ### Steganography
 
@@ -183,12 +198,15 @@ All tools are listed like this \[TAG1|\[TAG2|TAG3...]][Clickable name](#): Short
 * \[C|O] [sshpass]: pass ssh password without typing it (highly insecure)
 * \[C|O] [virt-what]: simple bash script to detect virtualization environment
 * \[W|O] [ProcessHacker]: Extended taskmanager
-* \[G]: [english-words]: simple english wordlist
-* \[G]: [fuzzdb]: tons of lists for fuzzing
-* \[O|C]: [recon-ng]: reconnaissance tool metasploit alike for mails/leaks/contacts/hosts/domains...
+* \[G] [english-words]: simple english wordlist
+* \[G] [fuzzdb]: tons of lists for fuzzing
+* \[O|C] [recon-ng]: reconnaissance tool metasploit alike for mails/leaks/contacts/hosts/domains...
 * \[G] https://gist.github.com/adamloving/4401361: List of trash/temporary mails list
 * \[W] http://www.viewdns.info/: retrieve DNS information, reverse whois, etc...
 * \[W] http://packetlife.net/library/cheat-sheets/: cheat sheets on different technos (network, CLI tools, etc)
+* \[G|C] [odat]: exploitation tools targeting oracle database
+* \[G|C] [msdat]: exploitation tools targeting Microsoft SQL database
+* \[G|C] [ShellPop]: generate bind/reverse shells from command line
 
 ### Sec/Tools list
 
@@ -334,3 +352,21 @@ Github wiki is also an option when the list is going to be too long.
 [frida]: https://github.com/frida/frida
 [objection]: https://github.com/sensepost/objection
 [teh_s3_bucketeers]: https://github.com/tomdev/teh_s3_bucketeers
+[apktool]: https://github.com/iBotPeaches/Apktool
+[uber-apk-signer]: https://github.com/patrickfav/uber-apk-signer
+[brakeman]: https://github.com/presidentbeef/brakeman
+[gixy]: https://github.com/yandex/gixy
+[mimikatz]: https://github.com/gentilkiwi/mimikatz
+[pypykatz]: https://github.com/skelsec/pypykatz
+[responder]: https://github.com/SpiderLabs/Responder
+[crackmapexec]: https://github.com/byt3bl33d3r/CrackMapExec
+[lsassy]: https://github.com/Hackndo/lsassy
+[dumpert]: https://github.com/outflanknl/Dumpert
+[odat]: https://github.com/quentinhardy/odat
+[msdat]: https://github.com/quentinhardy/msdat
+[phys2memprofit]: https://github.com/FSecureLABS/physmem2profit
+[pywerview]: https://github.com/the-useless-one/pywerview
+[SharpRDP]: https://github.com/0xthirteen/SharpRDP
+[ssf]: https://github.com/securesocketfunneling/ssf
+[revsocks]: https://github.com/kost/revsocks
+[ShellPop]: https://github.com/0x00-0x00/ShellPop
